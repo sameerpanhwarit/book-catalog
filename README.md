@@ -12,7 +12,7 @@ A simple, well-structured RESTful API for managing a catalog of books, built wit
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/sameerpanhwarit/book-catalog
    cd book-catalog
    ```
 2. **Create a virtual environment and activate it:**
@@ -22,7 +22,7 @@ A simple, well-structured RESTful API for managing a catalog of books, built wit
    ```
 3. **Install dependencies:**
    ```bash
-   pip install fastapi sqlalchemy uvicorn pydantic pytest
+   pip install -r requirements.txt
    ```
 
 ## Usage
